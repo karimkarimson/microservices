@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Userbase-Testsite</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="./index.js"></script>
+    </head>
+    <body>
+        <div><h1>Welcome to the Userbase</h1></div>
+        <p>Hi! &#128075; you may register, get info, delete a user or get infos about all users</p>
+        <br>
+        <div class="wrapper mpg">
+            <div class="forms mpg">
+                <form>
+                    <label for="username">&#128587; Username:</label>
+                    <br>
+                    <br>
+                    <input type="text" id="username"
+                        placeholder="masterofdesaster">
+                </form>
+                <br>
+                <form>
+                    <label for="email">&#x2709; Email:</label>
+                    <br>
+                    <br>
+                    <input type="text" id="email"
+                        placeholder="cooluser@test.com">
+                </form>
+                <br>
+                <br>
+            </div>
+            <div class="userdata">
+                <button id="regbutton">Register me!</button>
+                <button id="userinfobtn">Get info!</button>
+                <button id="deletebutton">Delete user</button>
+                <button id="showall">Show all info</button>
+            </div>
+        </div>
+        <div class="feedbacks mpg" id="feedbacks">
+            <div class="userdata mpg" id="postedinfo"></div>
+            <div class="mpg" id="allusers"></div>
+        </div>
+    </body>
+</html>
